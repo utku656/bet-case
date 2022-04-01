@@ -1,0 +1,19 @@
+
+.table-row {
+    &.header {
+      height: 4rem;
+      background-color: #87b1b9;
+      position: sticky;
+    }
+}
+.title {
+    color: #ff0000!important;
+    font-weight: bold;
+    font-size: 1rem;
+
+    .title-number {
+      color: #129817!important;
+      padding-right: 0.5rem;
+      font-size: 1rem;
+    }
+  }

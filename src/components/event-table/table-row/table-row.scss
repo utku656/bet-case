@@ -1,0 +1,28 @@
+
+.table-row {
+  display: grid;
+  grid-template-columns: 3fr 1fr repeat(17, 0.45fr);
+  border-bottom: 1px solid #070707;
+  background-color: #ffffff;
+  height: 3rem;
+  cursor: pointer;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #070707;
+    border-right: 1px solid #070707;
+    padding-left: 0.5rem;
+
+    &.selected {
+      background-color: #ffeb30;
+    }
+
+    &.match-info {
+      & > div {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
